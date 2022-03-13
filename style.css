@@ -1,0 +1,35 @@
+.jogo{
+    width: 550px;
+    margin: auto;
+    height: 497px;
+    background-color: blue;
+
+}
+
+
+.tabuleiro{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.tabuleiro button{
+    width: 200px;
+    height: 200px;
+    color:#efefef;
+
+}
+span{
+    display: none;
+}
+
+.x:after{
+    content: url("assets/x-removebg-preview.png");
+    padding: 0;
+}
+.o:after{
+    content: url("assets/circulo-removebg-preview.png");
+    padding: 0;
+}
